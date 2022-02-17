@@ -42,9 +42,10 @@ export default function Layout({ children, title = "HP by Next.js" }) {
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
+          className="flex items-center"
         >
           Powered by{" "}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={100} height={50} />
+          <Image src="/vercel.svg" alt="Vercel Logo" width={80} height={40} />
         </a>
       </footer>
     </div>
